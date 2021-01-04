@@ -1,3 +1,9 @@
+# Purpose
+This repository is an example of an issue with php/apache + fiber + amp-v3
+
+# Warning
+This docker-compose configuration will use the port 8001
+
 # Install
 
 - git clone ...
