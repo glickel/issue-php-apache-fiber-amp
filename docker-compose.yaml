@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  php-apache:
+    build: docker/php-apache
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 8001:80
